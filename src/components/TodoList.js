@@ -1,3 +1,7 @@
+/* eslint-disable no-shadow */
+/* eslint-disable react/button-has-type */
+/* eslint-disable import/prefer-default-export */
+
 import React, { useCallback } from 'react';
 import lodash from 'lodash';
 import { useDispatch, useSelector } from 'react-redux';

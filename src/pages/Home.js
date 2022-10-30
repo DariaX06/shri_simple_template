@@ -1,3 +1,6 @@
+/* eslint-disable import/prefer-default-export */
+
+import React from 'react';
 import { TodoList } from '../components/TodoList';
 
 export function Home() {
