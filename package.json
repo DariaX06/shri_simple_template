@@ -21,7 +21,7 @@
         "start": "npx webpack serve --mode=development",
         "build": "webpack --mode=production",
         "test": "echo \"implement me\"",
-        "lint:js": "eslint .",
+        "lint:js": "eslint src/*.js",
         "lint:css": "stylelint \"**/*.css\"",
         "analyze": "statoscope validate --input stats.json",
         "deploy": "gh-pages -d dist",
